@@ -461,7 +461,7 @@ html {
     margin-bottom: 15px;
 }
 
-.contact .content a {
+.contact .content .mail {
     text-decoration: none;
     color: var(--main-color);
     font-size: 35px;
@@ -478,9 +478,13 @@ html {
 
 @media (max-width: 767px) {
     .contact .content p:first-of-type,
-    .contact .content a {
+    .contact .content .mail {
         font-size: 25px;
     }
+}
+
+.contact .content div:last-of-type a {
+    color: var(--secondary-color);
 }
 /* End of Contact */
 
